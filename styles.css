@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  background-color: rgba(199, 63, 18, 0.95);
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1%;
+}
+
+.visual {
+  height: 50px;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search {
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.icon-white {
+  color: white;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+}
+
+.round {
+  border: 2px solid white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+}
